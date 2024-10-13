@@ -52,4 +52,9 @@ function addSum(a: number, b: number){
     return a + b;
 }
 
+function insertAtBeginning(aray: any[], value: any){
+    const newArray = [value, ...aray];
+    return Array;
+}
+
 
