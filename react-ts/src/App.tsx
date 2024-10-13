@@ -1,10 +1,17 @@
 import React from 'react';
-import './App.css';
+import Todos from './components/Todos';
+import Todo from './models/todo';
 
 function App() {
+
+  const todos = [
+    new Todo('Think Big'),
+    new Todo('Be Creative')
+  ]
+
   return (
     <div>
-
+        <Todos items={todos}/>
     </div>
   );
 }
