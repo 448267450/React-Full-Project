@@ -52,9 +52,15 @@ function addSum(a: number, b: number){
     return a + b;
 }
 
-function insertAtBeginning(aray: any[], value: any){
+function insertAtBeginning<T>(aray: T[], value: T){
     const newArray = [value, ...aray];
     return Array;
 }
+
+const demoArray = [1, 2 ,3];
+
+const updatedArray = insertAtBeginning(demoArray, -1);
+const stringArray = insertAtBeginning(['a','b','c'], 'd');
+
 
 
