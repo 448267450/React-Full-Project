@@ -1,3 +1,5 @@
+
+
 let age: number;
 
 age = 12;
@@ -46,8 +48,7 @@ course = 1243543;
 
 // functions & types
 
-
-function add(a: number, b: number){
+function addSum(a: number, b: number){
     return a + b;
 }
 
