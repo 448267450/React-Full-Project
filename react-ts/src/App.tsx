@@ -1,17 +1,12 @@
-import React from 'react';
-import Todos from './components/Todos';
-import Todo from './models/todo';
+import Todos from "./components/Todos";
+import NewTodo from "./components/NewTodo";
 
 function App() {
 
-  const todos = [
-    new Todo('Think Big'),
-    new Todo('Be Creative')
-  ]
-
   return (
     <div>
-        <Todos items={todos}/>
+      <NewTodo  />
+      <Todos  />
     </div>
   );
 }
